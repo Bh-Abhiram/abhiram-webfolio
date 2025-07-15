@@ -15,31 +15,30 @@ export default function Skills() {
 
   const skills = [
     // Frontend
-    { category: "Frontend", name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, level: 55 },
-    { category: "Frontend", name: "CSS3", icon: <FaCss3Alt className="text-blue-500" />, level: 50 },
-    { category: "Frontend", name: "JavaScript", icon: <FaJs className="text-yellow-400" />, level: 50 },
+    { category: "Frontend", name: "HTML5", icon: <FaHtml5 className="text-orange-500" />, level: 45 },
+    { category: "Frontend", name: "CSS3", icon: <FaCss3Alt className="text-blue-500" />, level: 40 },
+    { category: "Frontend", name: "JavaScript", icon: <FaJs className="text-yellow-400" />, level: 45 },
 
     // Frameworks
-    { category: "Frameworks", name: "React.js", icon: <FaReact className="text-cyan-400" />, level: 70 },
-    { category: "Frameworks", name: "Node.js", icon: <FaNodeJs className="text-green-500" />, level: 60 },
+    { category: "Frameworks", name: "React.js", icon: <FaReact className="text-cyan-400" />, level: 60 },
+    { category: "Frameworks", name: "Node.js", icon: <FaNodeJs className="text-green-500" />, level: 55 },
     { category: "Frameworks", name: "Express.js", icon: <SiExpress className="text-gray-300" />, level: 55 },
-    { category: "Frameworks", name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" />, level: 40 },
+    { category: "Frameworks", name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" />, level: 35 },
     { category: "Frameworks", name: "Django", icon: <SiDjango className="text-green-700" />, level: 30 },
 
     // Programming Languages
-    { category: "Programming Languages", name: "Java", icon: <FaJava className="text-red-500" />, level: 75 },
-    { category: "Programming Languages", name: "Python", icon: <FaPython className="text-yellow-400" />, level: 50 },
+    { category: "Programming Languages", name: "Java", icon: <FaJava className="text-red-500" />, level: 60 },
+    { category: "Programming Languages", name: "Python", icon: <FaPython className="text-yellow-400" />, level: 30 },
 
     // Databases
-    { category: "Databases", name: "MySQL", icon: <FaDatabase className="text-blue-300" />, level: 50 },
-    { category: "Databases", name: "MongoDB", icon: <SiMongodb className="text-green-500" />, level: 50 },
+    { category: "Databases", name: "MySQL", icon: <FaDatabase className="text-blue-300" />, level: 30 },
+    { category: "Databases", name: "MongoDB", icon: <SiMongodb className="text-green-500" />, level: 30 },
 
     // DSA Concepts
-    { category: "DSA", name: "Linear Search", icon: null, level: 60 },
-    { category: "DSA", name: "Binary Search", icon: null, level: 55 },
-    { category: "DSA", name: "HashMap / HashSet", icon: null, level: 50 },
-    { category: "DSA", name: "ArrayLists", icon: null, level: 50 },
-    { category: "DSA", name: "Strings Manipulation", icon: null, level: 65 },
+    { category: "DSA", name: "Linear Search", icon: null, level: 50 },
+    { category: "DSA", name: "Binary Search", icon: null, level: 40 },
+    { category: "DSA", name: "HashMap / HashSet", icon: null, level: 40 },
+    { category: "DSA", name: "ArrayLists", icon: null, level: 40 },
     { category: "DSA", name: "Bubble Sort", icon: null, level: 45 },
     { category: "DSA", name: "Selection Sort", icon: null, level: 40 },
     { category: "DSA", name: "Insertion Sort", icon: null, level: 35 },

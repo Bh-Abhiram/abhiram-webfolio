@@ -159,10 +159,8 @@ export default function Profile() {
           >
             LinkedIn
           </a>
-          {/* <a href="https://drive.google.com/file/d/1avgb4N5XL02-VVRsYTNbtY5yjzuF2jWB/view?usp=drive_link" */}
-          {/* target="_blank" */}
-          <a href="https://drive.google.com/uc?export=download&id=1avgb4N5XL02-VVRsYTNbtY5yjzuF2jWB"
-          // target="_blank"
+          <a href="https://drive.google.com/file/d/1avgb4N5XL02-VVRsYTNbtY5yjzuF2jWB/view?usp=drive_link"
+          target="_blank"
           rel="noopener noreferrer"
           className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-2 rounded-full font-semibold shadow-md transition hover:scale-105 cursor-pointer"
           >
@@ -177,7 +175,7 @@ export default function Profile() {
           animation: fadeIn 1.5s ease-out forwards;
         }
         .animate-typewriter {
-          animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+          animation: typing 3s steps(30, end), blink 0.75s step-end 3 forwards;
         }
         .animate-float {
           animation: floatUpDown linear infinite alternate;
@@ -217,15 +215,7 @@ export default function Profile() {
             transform: translateY(0);
           }
           100% {
-            transform: translateY(-10px);
-          }
-        }
-        @keyframes spin {
-          from {
-            transform: rotate(0deg);
-          }
-          to {
-            transform: rotate(360deg);
+            transform: translateY(-15px);
           }
         }
       `}</style>

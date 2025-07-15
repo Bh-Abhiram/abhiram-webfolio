@@ -69,52 +69,51 @@ export default function Welcome() {
       </div>
 
       {/* Animations */}
-      <style jsx>{`
-        .animate-fade-in {
-          animation: fadeIn 1.5s ease-out forwards;
-        }
-        .animate-typewriter {
-          animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
-        }
-        .animate-float {
-          animation: floatUpDown linear infinite alternate;
-        }
-        @keyframes fadeIn {
-          0% {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          100% {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        @keyframes typing {
-          from {
-            width: 0;
-          }
-          to {
-            width: 100%;
-          }
-        }
-        @keyframes blink {
-          0%,
-          100% {
-            border-color: transparent;
-          }
-          50% {
-            border-color: yellow;
-          }
-        }
-        @keyframes floatUpDown {
-          0% {
-            transform: translateY(0);
-          }
-          100% {
-            transform: translateY(-15px);
-          }
-        }
-      `}</style>
+    <style jsx>{`
+  .animate-fade-in {
+    animation: fadeIn 1.5s ease-out forwards;
+  }
+  .animate-typewriter {
+    animation: typing 3s steps(30, end), blink 0.75s step-end 3 forwards;
+  }
+  .animate-float {
+    animation: floatUpDown linear infinite alternate;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: yellow;
+    }
+  }
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+`}</style>
     </main>
   );
 }

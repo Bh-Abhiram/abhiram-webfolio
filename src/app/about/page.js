@@ -135,7 +135,7 @@ export default function About() {
       {/* Animations */}
       <style jsx>{`
         .animate-typewriter {
-          animation: typing 3s steps(30, end), blink 0.8s step-end infinite;
+          animation: typing 3s steps(30, end), blink 0.75s step-end 3 forwards;
         }
         .animate-fade-in {
           animation: fadeIn 1.2s ease-out forwards;
@@ -169,14 +169,6 @@ export default function About() {
           to {
             opacity: 1;
             transform: translateY(0);
-          }
-        }
-        @keyframes glow {
-          from {
-            box-shadow: 0 0 10px yellow;
-          }
-          to {
-            box-shadow: 0 0 25px yellow;
           }
         }
         @keyframes floatUpDown {
