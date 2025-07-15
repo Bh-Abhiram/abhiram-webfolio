@@ -35,6 +35,5 @@ Thumbs.db
 
 # Optional: Ignore build artifacts
 /dist
-
 # Ignore resume PDF
-/public/FSWD_Resume.pdf
+/public/FSWD Resume.pdf
