@@ -20,10 +20,10 @@ export default function Projects() {
       link: "https://github.com/Bh-Abhiram/Teach-Track",
     },
     {
-      title: "MED FORECAST",
+      title: "Disease Predictor",
       description:
         "Developed a medical forecasting tool designed to predict various types of diseases based on user inputs and health data analysis.",
-      link: "https://github.com/Bh-Abhiram/MED-FORECAST",
+      link: "https://github.com/Bh-Abhiram/Disease-Predictor",
     },
     {
       title: "Code Space",
