@@ -114,7 +114,7 @@ export default function Contact() {
 
       {/* Contact Form */}
       <section className="relative flex flex-col items-center justify-center min-h-screen text-center px-6 pt-24 z-10">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 animate-glow">📬 Contact Me</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-4 animate-glow">📬 Get In Touch</h1>
         <p className="max-w-2xl text-base md:text-lg text-gray-200 mb-6 leading-relaxed animate-fade-in">
           I’d love to hear from you. Fill out the form or connect on social media.
         </p>
